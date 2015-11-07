@@ -449,6 +449,8 @@ html {
   max-height: 100%;
 }
 /* - Blog and post headers - */
+
+
 #masthead {
   position: relative;
   display: table;
@@ -465,6 +467,50 @@ html {
 #masthead.align-right {
   text-align: right;
 }
+
+
+#innermast {
+  background-color: #1e1e1f;
+}
+#footer,
+#innermast {
+  color: #fff;
+}
+#footer h1,
+#innermast h1,
+#footer h2,
+#innermast h2,
+#footer p,
+#innermast p {
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.75);
+}
+#footer h1,
+#innermast h1,
+#footer h2,
+#innermast h2,
+#footer a,
+#innermast a,
+#footer p,
+#innermast p {
+  color: #fff;
+}
+
+#innermast {
+
+  text-align: right;
+  position: relative;
+  background-color: rgb(153, 153, 153);
+  margin: 0px;
+   
+}
+#innermast.align-left {
+  text-align: left;
+}
+#innermast.align-right {
+  text-align: right;
+}
+
+
 /* - Brand - */
 .brand img {
   max-height: 120px;
