@@ -3866,12 +3866,12 @@ a#slide:hover{
     }
 
 a#slide:after{
-    content:"F"
+    content:"D"
     }
 
 a#slide.slide:after{
     position:absolute;
-    content:"X";
+    content:"D";
     top:11px;
     left:50%;
     width:40px;
