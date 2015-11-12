@@ -22,21 +22,21 @@ url:
 # Owner/author information
 owner:
   name:           divecoding
-  avatar:         hmfaysal.jpg
-  email:          hmfaysal@alum.mit.edu
+  avatar:         
+  email:          
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Hossain Mohammad Faysal is an Electrical Engineer and a Mathematician based in Doha, Qatar. His interests are anything that&#8217;s related to math, from math itself to programming languages to music to physics to engineering to philosophy.
+  description:   
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal
-  stackexchange:  https://stackexchange.com/users/3402032/hossain-mohd-faysal
-  linkedin:       https://www.linkedin.com/pub/firstname-lastname/12/345/678
+  twitter:        
+  facebook:       
+  github:         divecoding
+  stackexchange:  
+  linkedin:       
   instagram:      
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/102602916593522619858
+  google_plus:    
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: 
@@ -85,8 +85,7 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://hmfaysal.github.io/'
-  relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
+  siteurl: 'http://divecoding.github.io/'
   media: 'images'
   metadata:
     _posts:
