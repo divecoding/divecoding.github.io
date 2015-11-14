@@ -15,6 +15,11 @@
 /* GENERAL TYPOGRAPHY RULES */
 /* ------------------------ */
 /* - Body typography - */
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 body {
   -webkit-font-smoothing: antialiased;
 }
@@ -474,6 +479,15 @@ html {
   text-align: right;
 }
 
+.bounding-box {
+  background-image: url(/images/divecoding.gif);
+  background-size: contain;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
 
 #innermast {
   background-color: #1e1e1f;
@@ -517,6 +531,11 @@ html {
 }
 #innermast.align-right {
   text-align: right;
+}
+
+#innermast.div {
+    resize: both;
+    overflow: auto;
 }
 
 .round {
