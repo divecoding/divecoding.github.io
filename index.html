@@ -15,7 +15,7 @@ tags: [Coding, Visual, engineering, interactive, code]
 					<article class="post post col-md-8 col-md-offset-2">
 						<h2 class="cursive">Coding, Visualized.</h2>
 						<br>
-						<iframe width="940" height="529" src="//www.youtube.com/embed/WauHhOLbTfA?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe>
+						<iframe width="940" height="529" src="//www.youtube.com/embed/uWOZkKgLILQ?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe>
 						<br>
 						<div class="post-body text-center">
 							Dive is the easiest way to learn how to code. Dive effortlessly brings life to your code with fluid animations and simple images.
@@ -59,6 +59,32 @@ tags: [Coding, Visual, engineering, interactive, code]
 	    </div>
 	</div>
 
+
+
+    <div class="container">
+    	<article class="post post col-md-8 col-md-offset-2">
+			<h1 class="cursive" itemprop="name">How it works</h1>
+
+			<div class="text-center">
+				Type your code into our interpreter.
+			</div>
+			<div class="text-center">
+				Then when you're ready, pause, play and debug your code.
+			</div>
+			 <br>
+		</article>
+		
+		<img src="{{ site.url }}/images/divecoding.gif" itemprop="image"/>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+
+<div id="innermast" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
+	<div class="inner">
 	  <div class="container">
 		<article class="post post col-md-8 col-md-offset-2">
 			<h2 class="cursive">The Team.</h2>
@@ -66,7 +92,7 @@ tags: [Coding, Visual, engineering, interactive, code]
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="{{ site.url }}/images/edward.jpg" class="img-responsive img-circle" alt="" height="200" width="200">
-                        <h4>Edward Zhu</h4>
+                        <h2>Edward Zhu</h2>
                         <ul class="list-inline social-buttons">
                             <li><a href="http://edwardzhu.me"><i class="fa fa-globe"></i></a>
                             </li>
@@ -78,7 +104,7 @@ tags: [Coding, Visual, engineering, interactive, code]
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="{{ site.url }}/images/josh.jpg" class="img-responsive img-circle" alt="" height="200" width="200">
-                        <h4>Josh Fermin</h4>
+                        <h2>Josh Fermin</h2>
                         <ul class="list-inline social-buttons">
                             <li><a href="http://joshfermin.me"><i class="fa fa-globe"></i></a>
                             </li>
@@ -90,7 +116,7 @@ tags: [Coding, Visual, engineering, interactive, code]
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="{{ site.url }}/images/steven.jpg" class="img-responsive img-circle" alt=""  height="200" width="200">
-                        <h4>Steven Tang</h4>
+                        <h2>Steven Tang</h2>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -102,23 +128,13 @@ tags: [Coding, Visual, engineering, interactive, code]
                     </div>
                 </div>
             </div>
-			<div class="post-body text-center">
+			<div class="text-center">
 				Based out of Boulder, Colorado with a passion for learning and making connections wherever we go! 
 			</div>
-		</article>
+			</article>
+		</div>
 	</div>
-
-<!-- 
-	<div id="innermast" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
-		<div class="inner">
-	        <div class="container">
-	        	<article class="post post col-md-8 col-md-offset-2">
-					<h1 class="cursive" itemprop="name">How it works</h1>
-				</article>
-				<img src="{{ site.url }}/images/divecoding.gif" itemprop="image"/>
-	        </div>
-	 </div>
-	</div> -->
+</div>
 
 
 	<center>
@@ -142,7 +158,7 @@ tags: [Coding, Visual, engineering, interactive, code]
 
 
 
-{% if site.paginate %}
+<!-- {% if site.paginate %}
 	{% for post in paginator.posts %}
 		{% if site.wpm %}
 		{% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
@@ -569,4 +585,4 @@ tags: [Coding, Visual, engineering, interactive, code]
 	        </div>
 			{% endif %}
 	{% endfor %}  
-{% endif %}
+{% endif %} -->
