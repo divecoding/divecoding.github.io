@@ -1,2 +1,0 @@
-# divecoding
-Landing page
