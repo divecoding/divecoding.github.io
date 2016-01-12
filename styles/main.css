@@ -1,0 +1,506 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+
+a.style1 {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a.style1:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: lawngreen;
+}
+
+a.style2 {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0,210,0,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 2em;
+    padding: 15px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(0,128,0,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(0,128,0,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(0,128,0,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 30px auto;
+    margin-right: 10px;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+a.style2:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(0, 128, 0, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    -moz-box-shadow: 0px 3px 0px rgba(0, 128, 0, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    box-shadow: 0px 3px 0px rgba(0, 128, 0, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+}
+
+h1 {
+    font-size: 50px;
+    color: green;
+    text-align: center;
+}
+
+h3 {
+
+}
+
+h3.style1 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin: 20px 0px 0px 0px;
+    text-shadow: 1px 1px 3px white;
+    font-weight: bold;
+}
+
+h3.style2 {
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+    float: right;
+}
+
+h3.style3 {
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+    float: left;
+}
+
+hr {
+    width: 15%;
+    border-top: 1px solid green;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 14px;
+}
+
+p.style1 {
+    font-size: 18px;
+    color: green;
+    text-align: center;
+}
+
+p.style2 {
+    font-size: 16px;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 20px;
+    float: right;
+}
+
+p.style3 {
+    font-size: 16px;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+p.style4 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* ==========================================================================
+   Author's custom class styles
+   ========================================================================== */
+
+.btn-sign-up {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 45%;
+    display: inline;
+    color: white;
+    font-weight: bold;
+    font-family: 'Yanone Kaffeesatz';
+    border-radius: 3px;
+    padding: 0px 15px 0px 15px;
+    background-image: none;
+    background-color: limegreen;
+    border: none;
+}
+
+.btn-sign-up:hover {
+    background-image: none;
+    background-color: green;
+    border: none;
+}
+
+.close {
+    color: white;
+}
+
+.colored-border {
+    height: 73px;
+    border-bottom: 3px solid darkcyan;
+}
+
+.colored-border1 {
+    height: 73px;
+    border-bottom: 3px solid limegreen;
+}
+
+.colored-border2 {
+    height: 73px;
+    border-bottom: 3px solid darkred;
+}
+
+.colored-border3 {
+    height: 3px;
+    border-top: 3px solid darkcyan;
+}
+
+.colored-border4 {
+    height: 3px;
+    border-top: 3px solid limegreen;
+}
+
+.colored-border5 {
+    height: 3px;
+    border-top: 3px solid darkred;
+}
+
+.custom-width {
+    width: 20.833333%;
+    display: inline;
+    overflow: hidden;
+}
+
+.dive-gif {
+    position: absolute;
+    width: 77%;
+    height: 81%;
+    top: 6.3%;
+    left: 11.5%;
+}
+
+.empty-div {
+    height: 130px;
+}
+
+.empty-div1 {
+    height: 20px;
+}
+
+.empty-div2 {
+    height: 60px;
+}
+
+.feature {
+    margin-left: 30px;
+}
+
+.feature1 {
+    margin-right: 30px;
+}
+
+.hide-show {
+    display: none;
+}
+
+.icon {
+    background-image: none;
+    background-image-repeat: none;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+}
+
+.icon:hover {
+    padding: 3px;
+    border: 3px solid green;
+}
+
+.icon-feature {
+    float: right;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.icon-feature1 {
+    float: left;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.img-overlay {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.laptop-img {
+    width: 100%;
+}
+
+.modal-header {
+    border: none;
+}
+
+.nav {
+    border: 2px solid gray;
+}
+
+.navbar {
+    height: 70px;
+    float: right;
+    background-image: none;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.navbar-default {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0px;
+    border: none;
+}
+
+.navlist {
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.social-media-logo {
+    margin-top: 18px;
+    width: 35px;
+    margin-left: 15px;
+}
+
+.separation {
+    display: inline;
+    float: right;
+    overflow: hidden;
+    margin-top: 24px;
+    padding-right: 35px;
+}
+
+.size {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.text-div {
+    margin: auto;
+    display: inline-block;
+    text-align: right;
+}
+
+.text-div1 {
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+}
+
+/* ==========================================================================
+   Author's custom id styles
+   ========================================================================== */
+#btn-mobile-sign {
+    display: none;
+}
+
+#btn-watch {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    height: 50px;
+    width: 45%;
+    display: inline;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 0px 15px 0px 15px;
+    border: 3px solid limegreen;
+}
+
+#btn-watch:hover {
+    border: 3px solid whitesmoke;
+}
+
+#dive-image {
+    width: 70px;
+    height: 70px;
+}
+
+#dive-text {
+    height: 70px;
+}
+
+#modal-content-prop {
+    height: 100%;
+    background-color: black;
+}
+
+#modal-size {
+    height: 100%;
+    width: 100%;
+}
+
+
+#promo-video {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* ==========================================================================
+   Custom media style
+   ========================================================================== */
+
+@media (max-width: 1000px) {
+
+    h3.style2 {
+        float: right;
+        width: 100%;
+    }
+
+    h3.style3 {
+        float: left;
+        width: 100%;
+    }
+
+    p.style2 {
+        float: right;
+        width: 100%;
+    }
+
+    p.style3 {
+        float: left;
+        width: 100%;
+    }
+
+    .btn-sign-up {
+        display: none;
+    }
+
+    .col-md-6 {
+        margin-bottom: 30px;
+    }
+
+    .colored-border1 {
+        border-bottom: none;
+    }
+
+    .colored-border2 {
+        border-bottom: none;
+    }
+
+    .colored-border3 {
+        border-top: none;
+    }
+
+    .colored-border4 {
+        border-top: none;
+    }
+
+    .feature {
+        margin-right: 30px;
+    }
+
+    .feature1 {
+        margin-left: 30px;
+    }
+
+    .hide-show {
+        width: 100%;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .icon-feature {
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .text-div {
+        float: right;
+    }
+
+    .text-div1 {
+        float: left;
+    }
+
+    #btn-mobile-watch {
+        margin: auto;
+        height: 50px;
+        width: 45%;
+        display: block;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        padding: 0px 15px 0px 15px;
+        border: 3px solid limegreen;
+    }
+
+    #btn-mobile-watch:hover {
+        border: 3px solid whitesmoke;
+    }
+
+    #btn-mobile-sign {
+        margin: auto;
+        height: 50px;
+        width: 45%;
+        display: block;
+        color: white;
+        font-weight: bold;
+        font-family: 'Yanone Kaffeesatz';
+        border-radius: 3px;
+        padding: 0px 15px 0px 15px;
+        background-image: none;
+        background-color: limegreen;
+        border: none;
+    }
+
+    #btn-mobile-sign:hover {
+        background-image: none;
+        background-color: green;
+        border: none;
+    }
+
+    #btn-watch {
+        display: none;
+    }
+
+}
