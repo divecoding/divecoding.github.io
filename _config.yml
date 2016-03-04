@@ -1,0 +1,45 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+title: DIVE CODING
+description: "A free Jekyll theme for download"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+
+# Site settings
+url: ""
+baseurl: ""
+# baseurl: ""
+
+# Author settings
+author:
+  name      : DiveCoding
+  job       : 
+  bio       : "Dive in"
+  thumb     : 
+  email     : divecoding@gmail.com
+  url       : http://divecoding.come
+  github    : 
+  twitter   : http://twitter.com/divecoding
+  facebook  : 
+  linkedin  : 
+
+repo:
+
+# comments
+disqus_shortname: "fernandomoreira"
