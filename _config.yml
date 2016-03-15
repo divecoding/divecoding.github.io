@@ -15,9 +15,9 @@ markdown    : kramdown
 highlighter : rouge
 
 # SEO settings
-title: DIVE CODING
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
+title: DiveCoding
+description: "Learn to Code. Visually."
+keywords: "dive, code, kids, coding, programming, learn, education"
 
 # Site settings
 url: ""
