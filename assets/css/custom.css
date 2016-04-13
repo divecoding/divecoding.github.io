@@ -1,6 +1,12 @@
 body {
     background-color: #09f;
 }
+.fa:before { color: #FFC87A; }
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
 
 .proxima-class
 {
