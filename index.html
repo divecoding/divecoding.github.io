@@ -2,10 +2,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
     <title>Dive Coding</title>
+
+    <meta name="keywords" content="coding, education, kids, programming, code for all, javascript, java, c, c++, python">
+    <meta name="description" content="Learn to code. Visually.">
+    <meta name="robots" content="index, follow" />
 
     <!--iOS -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- coding, programming, learn -->
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -126,12 +132,18 @@
     </br>
     <div class="footer">
       <center>
-       <p><font color="#FFC87A">© 2015-2016 DiveCoding LLC</font></p>
+       <p id="copyright"></p>
      </center>
      </div>
   </br>
 
     </div>
   </div>
+
+<!--   Dynamic copyright year -->
+<script type="text/javascript" src="assets/js/rainge.js"></script>
+  <script>
+    document.getElementById('copyright').innerHTML = '© ' + rainge(2015) + ' DiveCoding LLC';
+  </script>
 
 </body>

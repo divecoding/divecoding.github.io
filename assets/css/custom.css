@@ -1,41 +1,39 @@
 body {
     background-color: #09f;
 }
-.fa:before { color: #FFC87A; }
 
-.col-centered{
+.fa {
+  color: white;
+}
+.fa:hover {
+  color: lightgray;
+}
+
+.col-centered {
   float: none;
   margin: 0 auto;
 }
 
-.proxima-class
-{
+.proxima-class {
    font-family: 'Proxima Nova' !important;
 }
 
 /* CSS used here will be applied after bootstrap.css */
 .bg-dark-blue {
     background-color: #006BB2;
+    color: white;
 }
 
 /* CSS used here will be applied after bootstrap.css */
 .bg-light-blue {
     background-color: #5ABDFF;
+    color: white;
 }
 
 .bg-white {
   background-color: #ffffff;
+  color: black;
 }
-
-.bg-sand {
-  background-color: #FFC87A;
-}
-/*#mc_embed_signup {
-  clear:left;
-  font:16px Helvetica,Arial,sans-serif;
-  color:black;
-}*/
-
 
 @font-face {
   font-family: 'Proxima Nova';
